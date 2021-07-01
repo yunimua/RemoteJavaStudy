@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class A10_ConditionQuiz2 {
 	/*
-	 	[ �븣留욎� 議곌굔�떇�쓣 留뚮뱾�뼱蹂댁꽭�슂 ]
+	 	[ 알맞은 조건식을 만들어보세요 ]
 	 	
-	 	1. char�삎 蹂��닔 a媛� 'q' �삉�뒗 'Q' �씪�븣 true
-	 	2. char�삎 蹂��닔 b媛� 怨듬갚�씠�굹 �꺆�씠 �븘�땺�븣 true
-	 	3. char�삎 蹂��닔 c媛� 臾몄옄 ('0'~'9') �씪�븣 true
-	 	4. char�삎 蹂��닔 d媛� �쁺臾몄옄(��臾몄옄 �삉�뒗 �냼臾몄옄)�씪 �븣 true
+	 	1. char형 변수 a가 'q' 또는 'Q' 일때 true
+	 	2. char형 변수 b가 공백이나 탭이 아닐때 true
+	 	3. char형 변수 c가 문자 ('0'~'9') 일때 true
+	 	4. char형 변수 d가 영문자(대문자 또는 소문자)일 때 true
 	 	
-	 	�� �쑀�땲肄붾뱶 �몴 寃��깋
-	 	5. char�삎 蹂��닔 e媛� �븳湲��씪 �븣 true
-	 	6. char�삎 蹂��닔 f媛� �씪蹂몄뼱�씪 �븣 true
+	 	※ 유니코드 표 검색
+	 	5. char형 변수 e가 한글일 때 true
+	 	6. char형 변수 f가 일본어일 때 true
 	 	
-	 	7. �궗�슜�옄媛� �엯�젰�븳 臾몄옄�뿴�씠 exit�씪 �븣 true
+	 	7. 사용자가 입력한 문자열이 exit일 때 true
 	*/
 
 	public static void main(String[] args) {
